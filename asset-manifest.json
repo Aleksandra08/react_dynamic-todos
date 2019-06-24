@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react_dynamic-todos/static/css/main.2cce8147.chunk.css",
+    "main.js": "/react_dynamic-todos/static/js/main.f5b0669b.chunk.js",
+    "main.js.map": "/react_dynamic-todos/static/js/main.f5b0669b.chunk.js.map",
+    "runtime~main.js": "/react_dynamic-todos/static/js/runtime~main.410e91bb.js",
+    "runtime~main.js.map": "/react_dynamic-todos/static/js/runtime~main.410e91bb.js.map",
+    "static/js/2.b41502e9.chunk.js": "/react_dynamic-todos/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/react_dynamic-todos/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/react_dynamic-todos/index.html",
+    "precache-manifest.8a4c68eadd5015dd721798ae72d81f06.js": "/react_dynamic-todos/precache-manifest.8a4c68eadd5015dd721798ae72d81f06.js",
+    "service-worker.js": "/react_dynamic-todos/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/react_dynamic-todos/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/react_dynamic-todos/static/media/logo.5d5d9eef.svg"
+  }
+}

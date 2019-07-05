@@ -1,6 +1,11 @@
 import React from 'react';
 import TodoItems from './TodoItems'
 
+export const SORT_ORDER_COMPLETED = 'completed';
+export const SORT_ORDER_TITLE = 'title';
+export const SORT_ORDER_USER = 'user';
+
+
 function TodoList(props) {
     let newList = props.todos.map(el => {
         let user = props.users.find(user => {
@@ -15,15 +20,14 @@ function TodoList(props) {
             />
         )
     });
-
     return (
         <table>
             <tbody>
             <tr className={'header'}>
                 <td>Id</td>
-                <td>Name</td>
-                <td onClick={props.sort} className="sorting">Todos</td>
-                <td>Completed</td>
+                <td onClick={() => props.sort(SORT_ORDER_USER)} className="sorting">Name</td>
+                <td onClick={() => props.sort(SORT_ORDER_TITLE)} className="sorting">Todos</td>
+                <td onClick={() => props.sort(SORT_ORDER_COMPLETED)} className="sorting">Completed</td>
             </tr>
             {newList}
             </tbody>

@@ -12,8 +12,15 @@ table {
     cursor: pointer;
 }
 
+td {
+    padding: 5px;
+}
+
 .header {
     background: aquamarine;
+
+    font-weight: bold;
+    text-align: center;
 }
 
 .title {
@@ -30,5 +37,5 @@ table {
 }
 
 .sorting:hover {
-    background: yellow;
+    background: antiquewhite;
 }

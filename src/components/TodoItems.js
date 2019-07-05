@@ -2,6 +2,7 @@ import React from 'react';
 import User from './User'
 
 function TodoItems(props) {
+
     return (
         <tr>
             <td>{props.id}</td>

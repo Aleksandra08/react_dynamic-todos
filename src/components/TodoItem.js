@@ -1,7 +1,7 @@
 import React from 'react';
 import User from './User'
 
-function TodoItems(props) {
+function TodoItem(props) {
 
     return (
         <tr>
@@ -13,4 +13,4 @@ function TodoItems(props) {
     );
 }
 
-export default TodoItems;
+export default TodoItem;

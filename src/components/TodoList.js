@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoItems from './TodoItems'
+import TodoItem from './TodoItem'
 
 export const SORT_ORDER_COMPLETED = 'completed';
 export const SORT_ORDER_TITLE = 'title';
@@ -12,7 +12,7 @@ function TodoList(props) {
             return user.id === el.userId
         });
         return (
-            <TodoItems key={el.id}
+            <TodoItem key={el.id}
                        id={el.id}
                        name={user.name}
                        item={el.title}
